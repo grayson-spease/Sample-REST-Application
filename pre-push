@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Running pre-push verify script..."
+
+mvn clean verify
